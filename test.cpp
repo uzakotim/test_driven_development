@@ -7,18 +7,19 @@ bool err;
                                                                             }\
 
 
-// Tested function
-bool designed_function(int a)
+// Test function
+bool designed_function(int a, int b)
 {
-    return a>5;
+    return a==b;
 }
 // Tests
 
 void test_function()
 {
-    IS_TRUE(!designed_function(0));
-    IS_TRUE(!designed_function(5));
-    IS_TRUE(designed_function(10));
+    IS_TRUE(!designed_function(0,2));
+    IS_TRUE(!designed_function(5,0));
+    IS_TRUE(designed_function(10,10));
+    IS_TRUE(!designed_function(11,10));
 }
 
 int main(void)
