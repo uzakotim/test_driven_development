@@ -1,4 +1,14 @@
-x- can convert uint32t to binary string
-x - can separate into 4 numbers
-x - can convert those 4 numbers from binary to int
-x - can return the numbers with dots
+# toRoman():
+x  can convert numbers from 0 to 9
+x  can separate number into hundreds, decades, numbers
+x  can convert decades from 10 to 90
+x  can convert hundreds from 100 to 900
+x  can conver thousands from 1000 to 3999
+x  can concatenate all parts
+# from Roman():
+x can reverse string
+x can conver into 4 strings
+x can find decades first
+x can find hundreds second
+x can find thousands
+x can sum all parts

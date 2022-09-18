@@ -1,0 +1,6 @@
+x- can convert uint32t to binary string
+x - can separate into 4 numbers
+x - can convert those 4 numbers from binary to int
+x - can return the numbers with dots
+32         ==> "0.0.0.32"
+0          ==> "0.0.0.0"
